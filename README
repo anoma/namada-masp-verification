@@ -1,0 +1,2 @@
+This repository contains VerifyingKey data generated from the Namada
+MASP parameters as Rust constant byte arrays.

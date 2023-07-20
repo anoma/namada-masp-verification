@@ -1,0 +1,12 @@
+[package]
+name = "namada-masp-verification"
+version = "1.0.0"
+edition = "2021"
+
+[build-dependencies]
+const-gen = "=1.4.1"
+masp_proofs = { git = "https://github.com/anoma/masp", rev = "9320c6b69b5d2e97134866871e960f0a31703813", default-features = false }
+namada-masp-params = { git = "https://github.com/anoma/namada-masp-params", rev = "4835ca46d2981f785e6ea3397f0ec5517475ac07" }
+
+[dev-dependencies]
+masp_proofs = { git = "https://github.com/anoma/masp", rev = "9320c6b69b5d2e97134866871e960f0a31703813", default-features = false }
